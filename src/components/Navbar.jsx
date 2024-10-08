@@ -11,7 +11,7 @@ export default function Navbar() {
                 href="index.html"
                 className="navbar-logo block w-60 max-w-full px-4"
               >
-                <Logo className="header-logo h-12"></Logo>
+                <Logo></Logo>
               </a>
 
               <ul className="hidden lg:flex ">
