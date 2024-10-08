@@ -1,3 +1,4 @@
+import img from "../assets/images/team/team-01.png";
 export default function Team() {
   return (
     <>
@@ -27,7 +28,7 @@ export default function Team() {
               <div className="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none">
                 <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                   <img
-                    src="/src/assets/images/team/team-01.png"
+                    src={img}
                     alt="team image"
                     className="h-[120px] w-[120px] rounded-full"
                   />

@@ -1,3 +1,5 @@
+import img1 from "../assets/images/blog/blog-footer-01.jpg";
+import img2 from "../assets/images/blog/blog-footer-02.jpg";
 import Logo from "./svg/logo";
 
 export default function Footer() {
@@ -170,10 +172,7 @@ export default function Footer() {
                     className="group flex items-center gap-[22px]"
                   >
                     <div className="overflow-hidden rounded">
-                      <img
-                        src="/src/assets/images/blog/blog-footer-01.jpg"
-                        alt="blog"
-                      />
+                      <img src={img1} alt="blog" />
                     </div>
                     <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                       I think really important to design with...
@@ -184,10 +183,7 @@ export default function Footer() {
                     className="group flex items-center gap-[22px]"
                   >
                     <div className="overflow-hidden rounded">
-                      <img
-                        src="./src/assets/images/blog/blog-footer-02.jpg"
-                        alt="blog"
-                      />
+                      <img src={img2} alt="blog" />
                     </div>
                     <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
                       Recognizing the need is the primary...
